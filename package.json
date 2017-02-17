@@ -1,7 +1,7 @@
 {
   "name": "grunstrap",
   "description": "A starter for jquery, grunt, sass, uglify, markdown, documentation",
-  "repository": "http://www.github.com/tpaksu/templar",
+  "repository": "http://www.github.com/tpaksu/grunstrap",
   "license": "MIT",
   "version": "1.0.0",
   "devDependencies": {
