@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 tasks: 'sass'
             },
             docs: {
-            	files: ['readme.md'],
+            	files: ['documentation.md'],
             	tasks: 'markdown'
             }
         },
@@ -39,14 +39,14 @@ module.exports = function(grunt) {
             all: {
                 files: [{
                     expand: true,
-                    src: 'readme.md',
+                    src: 'documentation.md',
                     dest: 'docs/',
                     ext: '.html'
                 }],
                 options: {  
-					template: 'docs/includes/template.html',        
-			        autoTemplate: true,
-			        autoTemplateFormat: 'html'
+		    template: 'docs/includes/template.html',        
+		    autoTemplate: true,
+		    autoTemplateFormat: 'html'
                 }
             }
         }
