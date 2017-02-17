@@ -1,23 +1,18 @@
-# Markdown Doc Here
+# Grunstrap
 
-This template supports:
+A basic starter container for creating web plugins, apps etc. 
 
-- Bootstrap
-- Font Awesome
-- Prism.js 
-  
- ```html
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<title></title>
-	</head>
-	<body>
-		Here's the code template
-	</body>
-	</html>
- ```
-- toc.js, for automatically creating affix and scrollspy supported table of contents
+Includes:
+- *grunt* for automating tasks, 
+- *sass* for compiling Sass files into CSS, 
+- *uglify*, for minifying javascript,
+- *markdown* for creating HTML documentation using markdown files with:
+   - Template for documentation (template.html)
+   - Bootstrap
+   - jQuery
+   - Prism.js for highlighting codes
+   - TOC.js for automatic table of contents generation using H1, H2 .. header tags
 
-## TOC Line 1
-### TOC Line 1.1
+## License
+
+MIT
